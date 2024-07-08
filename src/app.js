@@ -4,7 +4,7 @@ import authRouter from "./routes/auth.js";
 import { defaultHeaders } from "./util/defaultHeaders.js";
 import connectDB from "./connectors/database.js";
 import errorHandler from "./util/errorHandler.js";
-import swaggerApp from "./swagger.js";
+import swaggerApp from "./config/swagger.js";
 
 const app = express();
 
